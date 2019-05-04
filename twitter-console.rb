@@ -15,5 +15,6 @@ users = File.read(FILENAME).split("\n")
 tweet = client.status(TWEET_ID)
 
 puts "client, users, tweet"
+puts "client.add_list_members('ruby', users)"
 
 binding.irb
